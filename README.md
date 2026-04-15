@@ -13,19 +13,21 @@ Main features:
 * Multilingual editor UI (French, English, Spanish, German, Italian)
 * Dynamic preview in the editor
 * Presets and reset button
+  
 
 ![Screenshot in lorem ipsum](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-17-14-31.png)  
 
-== Installation ==
+
+**Installation**
 
 1. Upload the plugin folder to `/wp-content/plugins/`
 2. Activate the plugin through the WordPress admin
 3. Insert the "Revue de presse" block in Gutenberg
 4. Or use the shortcode in the classic editor
 
-== Usage ==
+**Usage**
 
-= Gutenberg block =
+**Gutenberg block:**
 
 Add the "Revue de presse" block and configure:
 
@@ -39,27 +41,27 @@ Add the "Revue de presse" block and configure:
 * Horizontal crop
 * Optional fallback image
 
-= Shortcode =
+**Shortcode:**
 
 `[revue_presse url="https://example.com/article" title="Example" lang="fr" scale="0.4" offset_x="40" offset_y="60" align="right" width="320" height="220"]`
 
 Offsets are interpreted as crop values and always applied as negative internal translations.
 
-== Frequently Asked Questions ==
+**Frequently Asked Questions**
 
-= Why is the article not fully readable? =
+**Why is the article not fully readable?**
 
 The goal is to provide a visual preview and encourage traffic to the original source.
 
-= Why do some sites fail to display? =
+**Why do some sites fail to display?**
 
 Some websites block iframe embedding through security headers such as X-Frame-Options or Content-Security-Policy.
 
-= What is the fallback image for? =
+**What is the fallback image for?**
 
 It provides a background preview if the iframe does not load correctly or is blocked.
 
-= Can I use multiple embeds on the same page? =
+**Can I use multiple embeds on the same page?**
 
 Yes. Since version 5.2.1, each embed instance uses isolated styling so multiple blocks or shortcodes can coexist without interfering with one another.
 
@@ -85,7 +87,7 @@ Yes. Since version 5.2.1, each embed instance uses isolated styling so multiple 
 * Improved UI with sliders
 * Safer scale handling
 
-== License ==
+**License**
 
 GPLv2 or later
 
