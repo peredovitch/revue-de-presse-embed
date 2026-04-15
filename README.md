@@ -1,5 +1,5 @@
 # revue-de-presse-embed
-A minimalist but polished Wordpress plugin to nicely and ethically embed press articles (or any web page) in WP posts, encouraging outgoing traffic to the original source - usable in press reviews or similar contexts to provide a well-integrated, fine-tuned preview of the quoted piece. The plugin conveniently provides both a shortcode and a Gutenberg block, with ability to adjust margin, width, heigth, scaling and offset within a 5-language UI (English, French, German, Italian and Spanish) or as shortcode parameters. 
+A minimalist but polished Wordpress plugin to nicely and ethically embed press articles (or any web page) in WP posts, encouraging outgoing traffic to the original source - usable in press reviews or similar contexts to provide a well-integrated, fine-tuned preview of the quoted piece. The plugin conveniently provides both a shortcode and a Gutenberg block, with ability to adjust margin, width, height, scaling and offset within a 5-language UI (English, French, German, Italian and Spanish) or as shortcode parameters. 
 
 Main features:
 
@@ -14,8 +14,25 @@ Main features:
 * Dynamic preview in the editor
 * Presets and reset button
   
-
+**The plugin in action:**  
+ 
 ![Screenshot in lorem ipsum](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-17-14-31.png)  
+
+**Block UI overview:**
+
+![Block UI overview lorem ipsum screenshot](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-22-50-44.png) 
+
+**Select language, title (source link label), fallback image and alternative text:**
+
+![Block UI detail lorem ipsum screenshot](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-22-52-00.png)  
+
+**Nice and easy settings with a choice of presets, sane default and fully adjustable parameters:**  
+
+![Block UI adjustable parameters detail](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-22-53-27.png)  
+
+**Dynamic and responsive preview as a visual help to fine-tune the settings:**  
+
+![Dynamic preview inside the UI](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-22-57-33.png)  
 
 
 **Installation**
