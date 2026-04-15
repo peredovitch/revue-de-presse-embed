@@ -22,11 +22,11 @@ Main features:
 
 ![Block UI overview lorem ipsum screenshot](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-22-50-44.png) 
 
-**Select language, title (source link label), fallback image and alternative text:**
+**Select language, URL, title (source link label), fallback image and alternative text:**
 
 ![Block UI detail lorem ipsum screenshot](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-22-52-00.png)  
 
-**Nice and easy settings with a choice of presets, sane default and fully adjustable parameters:**  
+**Nice and easy settings with a choice of presets, sane defaults and fully adjustable parameters:**  
 
 ![Block UI adjustable parameters detail](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-22-53-27.png)  
 
@@ -37,7 +37,7 @@ Main features:
 
 **Installation**
 
-1. Upload the plugin folder to `/wp-content/plugins/`
+1. Upload the plugin folder to `/wp-content/plugins/`or upload the .zip file through WP's admin dashboard
 2. Activate the plugin through the WordPress admin
 3. Insert the "Revue de presse" block in Gutenberg
 4. Or use the shortcode in the classic editor
@@ -52,6 +52,7 @@ Add the "Revue de presse" block and configure:
 * Title
 * Custom caption text
 * Alignment
+* Gap / margin
 * Width and height
 * Scale
 * Vertical crop
@@ -60,7 +61,7 @@ Add the "Revue de presse" block and configure:
 
 **Shortcode:**
 
-`[revue_presse url="https://example.com/article" title="Example" lang="fr" scale="0.4" offset_x="40" offset_y="60" align="right" width="320" height="220"]`
+`[revue_presse url="https://example.com/article" title="Example" image="https://example.com/screenshot.png" lang="fr" scale="0.4" offset_x="40" offset_y="60" align="right" width="320" height="220" gap="O.75"]`
 
 Offsets are interpreted as crop values and always applied as negative internal translations.
 
