@@ -1,7 +1,7 @@
 # revue-de-presse-embed  
 Embed external articles in a compact, readable preview with zoom and smart cropping.  
 
-A minimalist but polished Wordpress plugin to nicely and ethically embed press articles (or any web page) in WP posts, encouraging outgoing traffic to the original source - usable in press reviews or similar contexts to provide a well-integrated, fine-tuned preview of the quoted piece. The plugin conveniently provides both a shortcode and a Gutenberg block, with ability to adjust margin, width, height, scaling and offset within a 5-language UI (English, French, German, Italian and Spanish) or as shortcode parameters. 
+A minimalist but polished WordPress plugin to nicely and ethically embed press articles (or any web page) in WP posts, encouraging outgoing traffic to the original source - usable in press reviews or similar contexts to provide a well-integrated, fine-tuned preview of the quoted piece. The plugin conveniently provides both a shortcode and a Gutenberg block, with ability to adjust margin, width, height, scaling and offset within a 5-language UI (English, French, German, Italian and Spanish) or as shortcode parameters. 
 
 ## Overview
 
@@ -26,7 +26,7 @@ Key idea:
   
 ## See the plugin in action (screenshots)  
 
-**How it looks within your Wordpress post:**
+**How it looks within your WordPress post:**
  
 ![Screenshot in lorem ipsum](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-17-14-31.png)  
 
@@ -49,7 +49,7 @@ Key idea:
 
 ## Installation
 
-1. Upload the plugin folder to `/wp-content/plugins/`or upload the .zip file through WP's admin dashboard
+1. Upload the plugin folder to `/wp-content/plugins/`or upload the .zip file through the WordPress admin dashboard
 2. Activate the plugin through the WordPress admin
 3. Insert the "Revue de presse" block in Gutenberg
 4. Or use the shortcode in the classic editor
