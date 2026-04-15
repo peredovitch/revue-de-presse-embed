@@ -1,4 +1,91 @@
 # revue-de-presse-embed
-A minimalist but polished Wordpress plugin to nicely and ethically embed press articles (or any web page) in WP posts, encouraging outgoing traffic to the original source - usable in press reviews or similar contexts to provide a well-integrated, fine-tuned preview of the quoted piece. The plugin conveniently provides both a shortcode and a Gutenberg block, with ability to adjust margin, width, heigth, scaling and offset within a 5-language UI (English, French, German, Italian and Spanish) or as shortcode parameters.    
+A minimalist but polished Wordpress plugin to nicely and ethically embed press articles (or any web page) in WP posts, encouraging outgoing traffic to the original source - usable in press reviews or similar contexts to provide a well-integrated, fine-tuned preview of the quoted piece. The plugin conveniently provides both a shortcode and a Gutenberg block, with ability to adjust margin, width, heigth, scaling and offset within a 5-language UI (English, French, German, Italian and Spanish) or as shortcode parameters. 
 
-![Screenshot in lorem ipsum](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-17-14-31.png)
+Main features:
+
+* Gutenberg block
+* Shortcode support
+* Zoom-out preview
+* Smart vertical and horizontal cropping
+* Left, right or center alignment
+* Caption with source link
+* Optional fallback image
+* Multilingual editor UI (French, English, Spanish, German, Italian)
+* Dynamic preview in the editor
+* Presets and reset button
+
+![Screenshot in lorem ipsum](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-17-14-31.png)  
+
+== Installation ==
+
+1. Upload the plugin folder to `/wp-content/plugins/`
+2. Activate the plugin through the WordPress admin
+3. Insert the "Revue de presse" block in Gutenberg
+4. Or use the shortcode in the classic editor
+
+== Usage ==
+
+= Gutenberg block =
+
+Add the "Revue de presse" block and configure:
+
+* URL
+* Title
+* Custom caption text
+* Alignment
+* Width and height
+* Scale
+* Vertical crop
+* Horizontal crop
+* Optional fallback image
+
+= Shortcode =
+
+`[revue_presse url="https://example.com/article" title="Example" lang="fr" scale="0.4" offset_x="40" offset_y="60" align="right" width="320" height="220"]`
+
+Offsets are interpreted as crop values and always applied as negative internal translations.
+
+== Frequently Asked Questions ==
+
+= Why is the article not fully readable? =
+
+The goal is to provide a visual preview and encourage traffic to the original source.
+
+= Why do some sites fail to display? =
+
+Some websites block iframe embedding through security headers such as X-Frame-Options or Content-Security-Policy.
+
+= What is the fallback image for? =
+
+It provides a background preview if the iframe does not load correctly or is blocked.
+
+= Can I use multiple embeds on the same page? =
+
+Yes. Since version 5.2.1, each embed instance uses isolated styling so multiple blocks or shortcodes can coexist without interfering with one another.
+
+== Changelog ==
+
+= 5.2.1 =
+* Fixed multi-instance rendering conflicts on pages containing several blocks and/or shortcodes
+* Added unique instance-based CSS targeting
+* Improved robustness for mixed shortcode and block usage
+* Kept block attribute schema aligned with editor controls
+
+= 5.2 =
+* Restored shortcode support
+* Added horizontal crop
+* Restored editor preview
+* Added fallback image option
+* Added multilingual labels: fr, en, es, de, it
+* Added explicit code section markers for easier debugging
+* Added presets and reset button
+
+= 5.1 =
+* Final scale compensation for crop
+* Improved UI with sliders
+* Safer scale handling
+
+== License ==
+
+GPLv2 or later
+
