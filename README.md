@@ -24,7 +24,7 @@ Key idea:
 * Dynamic preview in the editor
 * Presets and reset button
   
-**The plugin in action (screenshots):**  
+## See the plugin in action (screenshots): 
  
 ![Screenshot in lorem ipsum](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-17-14-31.png)  
 
