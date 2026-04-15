@@ -3,7 +3,7 @@ Embed external articles in a compact, readable preview with zoom and smart cropp
 
 A minimalist but polished Wordpress plugin to nicely and ethically embed press articles (or any web page) in WP posts, encouraging outgoing traffic to the original source - usable in press reviews or similar contexts to provide a well-integrated, fine-tuned preview of the quoted piece. The plugin conveniently provides both a shortcode and a Gutenberg block, with ability to adjust margin, width, height, scaling and offset within a 5-language UI (English, French, German, Italian and Spanish) or as shortcode parameters. 
 
-## ✨ Overview
+## Overview
 
 **Revue de presse embed** is a lightweight WordPress plugin designed for editorial use.  
 It allows you to embed external articles as visual previews directly inside your content, while encouraging users to visit the original source.
@@ -11,7 +11,7 @@ It allows you to embed external articles as visual previews directly inside your
 Key idea:
 > Provide a readable overview — not full readability — to preserve traffic to the source.
 
-Main features:
+## Main features:
 
 * Gutenberg block
 * Shortcode support
@@ -45,14 +45,14 @@ Main features:
 ![Dynamic preview inside the UI](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-22-57-33.png)  
 
 
-**Installation**
+## Installation
 
 1. Upload the plugin folder to `/wp-content/plugins/`or upload the .zip file through WP's admin dashboard
 2. Activate the plugin through the WordPress admin
 3. Insert the "Revue de presse" block in Gutenberg
 4. Or use the shortcode in the classic editor
 
-**Usage**
+## Usage
 
 **Gutenberg block:**
 
@@ -75,7 +75,7 @@ Add the "Revue de presse" block and configure:
 
 Offsets are interpreted as crop values and always applied as negative internal translations.
 
-**Frequently Asked Questions**
+## Frequently Asked Questions
 
 **Why is the article not fully readable?**
 
