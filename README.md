@@ -59,7 +59,7 @@ Preview is intentionally limited (editorial choice)
 3. Insert the "Revue de presse" block in Gutenberg
 4. Or use the shortcode in the classic editor
 
-## Usage
+## 🧩 Usage
 
 **Gutenberg block:**
 
@@ -86,7 +86,7 @@ Offsets are interpreted as crop values and always applied as negative internal t
 
 (Only the source URL parameter is mandatory; other parameters are optional or set to sane defaults if void)  
 
-## Frequently Asked Questions
+## ❓ Frequently Asked Questions
 
 **Why is the article not fully readable?**
 
