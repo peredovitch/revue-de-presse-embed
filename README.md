@@ -49,7 +49,7 @@ Key idea:
 ## ⚠️ Known limitations  
 
 * Some websites block iframe embedding (X-Frame-Options, CSP)
-* Rendering depends on external site layout (not controllable)
+* Rendering depends on external site layout (not controllable) — if your specific theme forces its own layout over your plugin settings, you might have to modify your child theme CSS files accordingly: in particular, look out for !important flags
 * Preview is intentionally limited (editorial choice)
 
 ## 📦 Installation
