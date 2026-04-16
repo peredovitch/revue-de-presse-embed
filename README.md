@@ -71,7 +71,7 @@ Add the "Revue de presse" block and configure:
 * Horizontal crop
 * Optional fallback image
 
-(Only the source URL is mandatory; all other fields default to sane settings and fallback image, title and alternative caption text are optional)
+(Only the source URL is mandatory; all other fields default to sane settings -- fallback image, title and alternative caption text are optional)
 
 **Shortcode:**
 
