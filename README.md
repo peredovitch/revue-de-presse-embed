@@ -34,7 +34,7 @@ Key idea:
 
 ![Block UI overview lorem ipsum screenshot](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-22-50-44.png) 
 
-**Select language, URL, title (source link label), fallback image and alternative caption text:**
+**Configure language, URL, title (source link label), fallback image and alternative caption text:**
 
 ![Block UI detail lorem ipsum screenshot](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-22-52-00.png)  
 
@@ -71,11 +71,15 @@ Add the "Revue de presse" block and configure:
 * Horizontal crop
 * Optional fallback image
 
+(Only the source URL is mandatory; all other fields default to sane settings and fallback image, title and alternative caption text are optional)
+
 **Shortcode:**
 
 `[revue_presse url="https://example.com/article" title="Example" image="https://example.com/screenshot.png" lang="fr" scale="0.4" offset_x="40" offset_y="60" align="right" width="320" height="220" gap="O.75"]`
 
-Offsets are interpreted as crop values and always applied as negative internal translations.
+Offsets are interpreted as crop values and always applied as negative internal translations.  
+
+(Only the source URL parameter is mandatory; other parameters are optional or set to sane defaults if void)  
 
 ## Frequently Asked Questions
 
