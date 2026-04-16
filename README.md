@@ -24,7 +24,7 @@ Key idea:
 * Dynamic preview in the editor
 * Presets and reset button
   
-## See the plugin in action (screenshots)  
+## 🖼 See the plugin in action (screenshots)  
 
 **How it looks within your published WordPress post:**
  
@@ -46,8 +46,13 @@ Key idea:
 
 ![Dynamic preview inside the UI](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-22-57-33.png)  
 
+## ⚠️ Known limitations  
 
-## Installation
+Some websites block iframe embedding (X-Frame-Options, CSP)
+Rendering depends on external site layout (not controllable)
+Preview is intentionally limited (editorial choice)
+
+## 📦 Installation
 
 1. Upload the plugin folder to `/wp-content/plugins/` or upload the .zip file through the WordPress admin dashboard
 2. Activate the plugin through the WordPress admin
@@ -97,7 +102,13 @@ It provides a background preview if the iframe does not load correctly or is blo
 
 **Can I use multiple embeds on the same page?**
 
-Yes. Since version 5.2.1, each embed instance uses isolated styling so multiple blocks or shortcodes can coexist without interfering with one another.
+Yes. Since version 5.2.1, each embed instance uses isolated styling so multiple blocks or shortcodes can coexist without interfering with one another.  
+
+## 🔧 Technical notes  
+
+* Each embed instance uses isolated CSS
+* Fully compatible with multiple embeds per page
+* Works in both block editor and classic editor
 
 == Changelog ==
 
@@ -121,7 +132,7 @@ Yes. Since version 5.2.1, each embed instance uses isolated styling so multiple 
 * Improved UI with sliders
 * Safer scale handling
 
-**License**
+**📄 License**
 
 GPLv2 or later
 
