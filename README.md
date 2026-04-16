@@ -3,6 +3,8 @@ Embed external articles in a compact, readable preview with zoom and smart cropp
 
 A minimalist but polished WordPress plugin to nicely and ethically embed press articles (or any web page) in WordPress posts, encouraging outgoing traffic to the original source - usable in press reviews or similar contexts to provide a well-integrated, fine-tuned preview of the quoted piece. The plugin conveniently provides both a shortcode and a Gutenberg block, with ability to adjust margin, width, height, scaling and offset within a 5-language UI (English, French, German, Italian and Spanish) or as shortcode parameters. 
 
+---
+ 
 ## Overview
 
 **Revue de presse embed** is a lightweight WordPress plugin designed for editorial use.  
@@ -11,6 +13,7 @@ It allows you to embed external articles as visual previews directly inside your
 Key idea:
 > Provide a readable overview — not full readability — to preserve traffic to the source.
 
+  
 ---
 
 ## 🎯 Who is this for?
@@ -49,8 +52,7 @@ Typical use case:
 * Multiple embeds per page with fully isolated rendering (no CSS conflicts)
 
 ---
-
-  
+ 
 ## 🖼 See the plugin in action (screenshots)  
 
 **How it looks within your published WordPress post:**
@@ -148,6 +150,8 @@ Yes. Since version 5.2.1, each embed instance uses isolated styling so multiple 
 * Fully compatible with multiple embeds per page
 * Works in both block editor and classic editor
 
+---
+ 
 ## Changelog
 
 **5.2.1**
