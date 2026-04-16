@@ -11,6 +11,29 @@ It allows you to embed external articles as visual previews directly inside your
 Key idea:
 > Provide a readable overview — not full readability — to preserve traffic to the source.
 
+---
+
+## 🎯 Who is this for?
+
+This plugin is designed for:
+
+- Editorial websites publishing press reviews
+- Cultural and music blogs referencing external articles
+- Curated link collections with commentary
+- Journalists and researchers sharing sources with context
+
+Typical use case:
+> You want to show enough of an article to understand its content, while encouraging readers to visit the original source.
+
+---
+
+## 🧭 Use cases
+
+- Press review sections (“revue de presse”)
+- Annotated article collections
+- Music criticism and concert reviews referencing media coverage
+- Academic or journalistic source aggregation
+
 ## Main features:
 
 * Gutenberg block
@@ -23,6 +46,10 @@ Key idea:
 * Multilingual editor UI (French, English, Spanish, German, Italian)
 * Dynamic preview in the editor
 * Presets and reset button
+* Multiple embeds per page with fully isolated rendering (no CSS conflicts)
+
+---
+
   
 ## 🖼 See the plugin in action (screenshots)  
 
@@ -46,11 +73,16 @@ Key idea:
 
 ![Dynamic preview inside the UI](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-22-57-33.png)  
 
+---
+
 ## ⚠️ Known limitations  
 
 * Some websites block iframe embedding (X-Frame-Options, CSP)
-* Rendering depends on external site layout (not controllable) — if your theme forces its own styling over your plugin settings, you may need to (cautiously) modify your theme's CSS files: in particular, look out for `!important` flags
+* Rendering depends on external site layout (not controllable)
+* If your theme forces its own styling over your plugin settings, you may need to (cautiously) modify your theme's CSS files: in particular, look out for `!important` flags
 * Preview is intentionally limited (editorial choice)
+
+---
 
 ## 📦 Installation
 
@@ -58,6 +90,8 @@ Key idea:
 2. Activate the plugin through the WordPress admin
 3. Insert the "Revue de presse" block in Gutenberg
 4. Or use the shortcode in the classic editor
+
+---
 
 ## 🧩 Usage
 
@@ -80,11 +114,13 @@ Add the "Revue de presse" block and configure:
 
 **Shortcode:**
 
-`[revue_presse url="https://example.com/article" title="Example" image="https://example.com/screenshot.png" lang="fr" scale="0.4" offset_x="40" offset_y="60" align="right" width="320" height="220" gap="O.75"]`
+`[revue_presse url="https://example.com/article" title="Example" image="https://example.com/screenshot.png" lang="fr" scale="0.4" offset_x="40" offset_y="60" align="right" width="320" height="220" gap="0.75"]`
 
 Offsets are interpreted as crop values and always applied as negative internal translations.  
 
 (Only the source URL parameter is mandatory; other parameters are optional or set to sane defaults if void)  
+
+---
 
 ## ❓ Frequently Asked Questions
 
@@ -104,21 +140,23 @@ It provides a background preview if the iframe does not load correctly or is blo
 
 Yes. Since version 5.2.1, each embed instance uses isolated styling so multiple blocks or shortcodes can coexist without interfering with one another.  
 
+---
+
 ## 🔧 Technical notes  
 
 * Each embed instance uses isolated CSS
 * Fully compatible with multiple embeds per page
 * Works in both block editor and classic editor
 
-== Changelog ==
+## Changelog
 
-= 5.2.1 =
+**5.2.1**
 * Fixed multi-instance rendering conflicts on pages containing several blocks and/or shortcodes
 * Added unique instance-based CSS targeting
 * Improved robustness for mixed shortcode and block usage
 * Kept block attribute schema aligned with editor controls
 
-= 5.2 =
+**5.2**
 * Restored shortcode support
 * Added horizontal crop
 * Restored editor preview
@@ -127,12 +165,14 @@ Yes. Since version 5.2.1, each embed instance uses isolated styling so multiple 
 * Added explicit code section markers for easier debugging
 * Added presets and reset button
 
-= 5.1 =
+**5.1**
 * Final scale compensation for crop
 * Improved UI with sliders
 * Safer scale handling
 
-**📄 License**
+---
+
+## 📄 License
 
 GPLv2 or later
 
