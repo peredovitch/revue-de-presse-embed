@@ -48,9 +48,9 @@ Key idea:
 
 ## ⚠️ Known limitations  
 
-Some websites block iframe embedding (X-Frame-Options, CSP)
-Rendering depends on external site layout (not controllable)
-Preview is intentionally limited (editorial choice)
+* Some websites block iframe embedding (X-Frame-Options, CSP)
+* Rendering depends on external site layout (not controllable)
+* Preview is intentionally limited (editorial choice)
 
 ## 📦 Installation
 
