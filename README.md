@@ -26,7 +26,7 @@ Key idea:
   
 ## See the plugin in action (screenshots)  
 
-**How it looks within your WordPress post:**
+**How it looks within your published WordPress post:**
  
 ![Screenshot in lorem ipsum](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-17-14-31.png)  
 
