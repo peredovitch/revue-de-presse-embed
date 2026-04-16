@@ -34,7 +34,7 @@ Key idea:
 
 ![Block UI overview lorem ipsum screenshot](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-22-50-44.png) 
 
-**Configure language, URL, title (source link label), fallback image and alternative caption text:**
+**Configure language, URL, title (source link label), fallback image and alternative caption text in the UI:**
 
 ![Block UI detail lorem ipsum screenshot](https://ressources.peredovitch.eu/wp-content/uploads/2026/04/Capture-decran-du-2026-04-15-22-52-00.png)  
 
