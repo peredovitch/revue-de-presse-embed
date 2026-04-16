@@ -49,7 +49,7 @@ Key idea:
 
 ## Installation
 
-1. Upload the plugin folder to `/wp-content/plugins/`or upload the .zip file through the WordPress admin dashboard
+1. Upload the plugin folder to `/wp-content/plugins/` or upload the .zip file through the WordPress admin dashboard
 2. Activate the plugin through the WordPress admin
 3. Insert the "Revue de presse" block in Gutenberg
 4. Or use the shortcode in the classic editor
